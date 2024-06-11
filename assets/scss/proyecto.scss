@@ -1,0 +1,59 @@
+//framework
+@import "../bootstrap-5.3.3/scss/bootstrap.scss";
+//fuente
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/806/801/original/glowing-stars-background-loop-free-video.jpg);
+}
+.pikachu img {
+    z-index: -5;
+    max-height: 500px;
+}
+.ojo_izquierdo img {
+    display: flex;
+    position:absolute;
+    max-height: 50px;
+    top: 180px;
+    left: 100px;
+    z-index: 5;
+}
+.ojo_derecho img {
+    display: flex;
+    position:absolute;
+    max-height: 50px;
+    top: 180px;
+    left: 190px;
+    z-index: 5;
+}
+.boca img {
+    display: flex;
+    position:absolute;
+    max-height: 50px;
+    top: 230px;
+    left: 130px;
+    z-index: 5;
+}
+.mano_izquierda img {
+    display: flex;
+    position:absolute;
+    max-height: 110px;
+    top: 290px;
+    left: 85px;
+    z-index: 5;
+}
+.mano_derecha img {
+    display: flex;
+    position:absolute;
+    max-height: 110px;
+    top: 290px;
+    left: 183px;
+    z-index: 5;
+}
+.cola img {
+    display: flex;
+    position:absolute;
+    max-height: 200px;
+    top: 190px;
+    left: 238px;
+    z-index: 5;
+}
